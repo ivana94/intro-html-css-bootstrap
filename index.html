@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>intro to HTML fun!</title>
+        <link rel='stylesheet' href='styles.css'>
+    </head>
+    <body>
+
+        <!--
+            List of HTML tags:
+            https://www.w3schools.com/tags/default.asp
+        -->
+
+        <header>
+            <nav>
+                <a id='programs-anchor' href='/programs'>programs</a>
+                <a href='https://www.google.com'>about</a>
+                <a href='https://www.google.com'>contact</a>
+            </nav>
+            <h1 class='header'>HTML fun!</h1>
+
+        </header>
+
+        <main>
+            <p>paragraph</p>
+            <img src='layla.jpg'>
+            <section></section>
+            <section>
+                <form>
+                    <input name='email' placeholder='please enter your email' type='type'>
+                    <input name='file' type='file'>
+
+                    <!-- THIS IS IMPORTANT FOR YOU -->
+                    <select name='select'>
+                        <!--
+                            specifically, the values - you MUST pass values to
+                            your options so that the option your user selected
+                            is passed to your the url as a query string
+                        -->
+                        <option value='transformers'>transformers</option>
+                        <option value='inception'>inception</option>
+                        <option value='detective-pikachu'>detective pikachu</option>
+                    </select>
+
+                    <button>submit</button>
+                </form>
+            </section>
+
+        </main>
+
+        <footer></footer>
+
+    </body>
+</html>

@@ -1,0 +1,49 @@
+.header-container {
+
+    /* this code will perfectly center an element */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* end code for centering an element */
+
+    height: 500px;
+    background: violet;
+}
+
+.space-container {
+    height: 300px;
+}
+
+h1 {
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+.tag {
+    background: black;
+    color: white;
+    height: 50px;
+    letter-spacing: 3px;
+}
+
+.form-container {
+    padding: 50px;
+}
+
+.card {
+		/* this will make the cards sit next to each other. */
+		/* by default they want to stack. display: inline-block tells them NOT to stack! */
+    display: inline-block;
+}
+
+.btn-new-line {
+  	/* now I do the opposite of what I did above in the .card styling :)
+      buttons want to sit next to other elements. In the case of the cards, this means
+      the button by default wants to sit next to the cards. I thought that looked ugly,
+      so I gave the button display: block to tell it to STACK, or move underneath the cards.
+      margin-top pushes the button away from the cards. Without margin-top the button would be
+      hugging the bottom of the cards.
+  	*/
+    display: block;
+    margin-top: 50px;
+}

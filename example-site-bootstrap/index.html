@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <!-- ************ NAVBAR ************ -->
+
+    <nav class="navbar text-dark navbar-expand-lg ">
+        <a class="navbar-brand">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Recommender</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+  <!-- ************ END NAVBAR ************ -->
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ************ BIG BANNER ************ -->
+
+
+
+		<!--
+			"header-container" is a class I created and styled in my CSS file. It has height,
+			background-color, and some "flexbox" things to center the text perfectly within
+			the div.
+
+		-->
+    <div class="container header-container">
+        <div>
+            <h1>The Movie Recommender 3000</h1>
+            <p>Let us tell you what to watch next.</p>
+        </div>
+    </div>
+
+
+
+  <!-- ************ END BIG BANNER ************ -->
+
+
+
+
+
+
+
+
+
+
+
+  	  <!-- ************ SATISFIED CUSTOMER TESTIMONIAL ************ -->
+
+
+  	<!--
+      I wanted to create space between the big violet banner, and the testimonial quote
+      from Kristian. So I created two divs with a class I created called "space-container".
+      I gave the "space-container" class height of 300px in my CSS file. This means that
+			there is 300px of space between the big violet banner and the Kristian quote.
+		-->
+
+    <!--
+			This concept of using empty divs to create space between elements is VERY common!
+    -->
+
+    <div class = "space-container"></div>
+
+    <div class="container">
+      	<!--
+					"pl-5" is a Bootstrap class. It pushes the text away from the
+					left-edge of the black box.
+					"tag" is my own class.
+				-->
+        <h1 class="tag pl-5">"Better than Netflix!" - Kristian Rother</h1>
+    </div>
+
+    <div class = "space-container"></div>
+
+  	<!-- ************ END SATISFIED CUSTOMER TESTIMONIAL ************ -->
+
+
+
+
+
+
+
+
+
+  	<!-- ************ FORM ************ -->
+
+
+
+    <div class = "container form-container">
+        <h1>Let's get started.</h1>
+        <h5>It's simple. Just tell me what you think of these movies.</h5>
+
+        <form>
+
+
+          <!-- ************ CARD ************ -->
+
+            <div class="card mr-5 mt-5" style="width: 18rem;">
+                <img class="card-img-top" src="pup.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Shawshank Redemption</h5>
+                    <select name="rating-sr">
+                        <option value="1">1 - terrible</option>
+                        <option value="2">2 - bad</option>
+                        <option value="3">3 - ok</option>
+                        <option value="4">4 - good</option>
+                        <option value="5">5 - excellent</option>
+                    </select>
+                </div>
+            </div>
+
+          <!-- ************ END CARD ************ -->
+
+
+
+
+
+
+          <!-- ************ CARD ************ -->
+
+            <div class="card mr-5 mt-5" style="width: 18rem;">
+                <img class="card-img-top" src="pup.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Saw</h5>
+                    <select name="rating-saw">
+                        <option value="1">1 - terrible</option>
+                        <option value="2">2 - bad</option>
+                        <option value="3">3 - ok</option>
+                        <option value="4">4 - good</option>
+                        <option value="5">5 - excellent</option>
+                    </select>
+                </div>
+            </div>
+
+          <!-- ************ END CARD ************ -->
+
+
+
+
+
+
+          <!-- ************ CARD ************ -->
+
+            <div class="card mr-5 mt-5" style="width: 18rem;">
+                <img class="card-img-top" src="pup.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Finding Nemo</h5>
+                    <select name="rating-fn">
+                        <option value="1">1 - terrible</option>
+                        <option value="2">2 - bad</option>
+                        <option value="3">3 - ok</option>
+                        <option value="4">4 - good</option>
+                        <option value="5">5 - excellent</option>
+                    </select>
+                </div>
+            </div>
+
+          <!-- ************ END CARD ************ -->
+
+
+
+
+
+          <!-- ************ CARD ************ -->
+
+            <div class="card mr-5 mt-5" style="width: 18rem;">
+                <img class="card-img-top" src="pup.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Detective Pikachu</h5>
+                    <select name="rating-dp">
+                        <option value="1">1 - terrible</option>
+                        <option value="2">2 - bad</option>
+                        <option value="3">3 - ok</option>
+                        <option value="4">4 - good</option>
+                        <option value="5">5 - excellent</option>
+                    </select>
+                </div>
+            </div>
+
+          <!-- ************ END CARD ************ -->
+
+
+
+
+          <!-- ************ CARD ************ -->
+
+            <div class="card mr-5 mt-5" style="width: 18rem;">
+                <img class="card-img-top" src="pup.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Avengers: Endgame</h5>
+                    <select name="rating-ae">
+                        <option value="1">1 - terrible</option>
+                        <option value="2">2 - bad</option>
+                        <option value="3">3 - ok</option>
+                        <option value="4">4 - good</option>
+                        <option value="5">5 - excellent</option>
+                    </select>
+                </div>
+            </div>
+
+          <!-- ************ END CARD ************ -->
+
+
+            <button class='btn btn-primary btn-new-line'>submit</button>
+        </form>
+
+    </div>
+
+
+
+  <!-- ************ END FORM ************ -->
+
+
+
+
+
+
+
+  <!-- ************ FOOTER ************ -->
+
+  <footer class='footer mt-5'>
+    <!-- &copy; is the copyright symbol! -->
+      <div class='container'>&copy; Matijevic 2019</div>
+  </footer>
+
+
+  <!-- ************ END FOOTER ************ -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

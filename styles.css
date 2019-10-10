@@ -1,0 +1,31 @@
+/* sanity check - make sure CSS is linked :)
+* {
+    background: red;
+}
+*/
+
+/* . = class */
+.header {
+    width: 650px;
+    background: yellow;
+    color: mediumorchid;
+    font-size: 100px;
+    font-family: fantasy;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* # = id */
+#programs-anchor {
+    font-size: 32px;
+    text-decoration: none;
+}
+
+
+
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
